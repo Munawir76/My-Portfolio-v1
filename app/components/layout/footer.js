@@ -1,13 +1,19 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Footer() {
   return (
-    <Footer className="fixed-b h-full w-full">
-      <div className="bg-yellow-400 flex justify-between p-4 ">
-        <div className="text-black text-2xl font-bold leading-7 cursor-pointer">
-         <span>INI FOOTER</span>
+    <div className="p-4 bottom-0 h-full w-ful bg-gray-200">
+      <div className=" flex justify-center  ">
+        <div className="cursor-pointer flex justify-between gap-10 ">
+          <Image src="/asset/icon/instagram.png" width={40} height={40} />
+          <Image src="/asset/icon/linkedin.png" width={40} height={40} />
+          <Image src="/asset/icon/email.png" width={48} height={40} />
         </div>
       </div>
-    </Footer>
+      <div className="flex justify-center text-black mt-2">
+        <span>Munawir Sajali</span>
+      </div>
+    </div>
   );
 }
