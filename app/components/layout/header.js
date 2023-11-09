@@ -13,7 +13,7 @@ export default function Header() {
         <div className="flex justify-evenly mr-40">
           <div className="p-5  cursor-pointer">
             <Link href="/about">
-              <span className="hover:text-white text-black">About</span>
+              <span className="hover:text-white text-black">About test</span>
             </Link>
           </div>
           <div className="p-5  cursor-pointer">
