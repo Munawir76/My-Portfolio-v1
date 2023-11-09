@@ -7,7 +7,7 @@ export default function Header() {
       <div className=" flex justify-between bg-white">
         <div className="text-black text-2xl font-bold cursor-pointer p-5 ">
           <Link href="/">
-            <span className="ml-20">My Portfolio</span>
+            <span className="ml-20">My Portfolio new</span>
           </Link>
         </div>
         <div className="flex justify-evenly mr-40">
